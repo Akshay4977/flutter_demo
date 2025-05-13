@@ -40,7 +40,7 @@ class _HomeState extends State<Home> {
       const SizedBox(height: 30),
       ElevatedButton(
           onPressed: () {
-            GoRouter.of(context).pushNamed(AppRouterConstant.details,
+            GoRouter.of(context).pushNamed(AppRouterConstant.bank,
                 pathParameters: {'username': 'Akshay'});
           }, // Go to AboutScreen
           child: const Text('Details')),
